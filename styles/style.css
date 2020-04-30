@@ -103,6 +103,7 @@ label{
     margin: 25px 0px 20px 0px;
     height: 50px;
     width: 310px;
+    line-height: 30px;
 }
 .create-text{
     margin-left: 0px;
@@ -110,7 +111,7 @@ label{
 }
 .create-img{
     float: left;
-    margin: 10px 0px 0px 60px;
+    margin: 5px -60px 0px 60px;
 }
 
 input[type=text]{
@@ -175,4 +176,8 @@ footer a:hover
 button :hover
 {
     cursor: pointer;
+}
+button{
+    line-height: 25px;
+    text-align: center;
 }
