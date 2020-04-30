@@ -1,8 +1,18 @@
+/*GENERAL*/
 html{
     color: #4C4C4C;
     font-family: sans-serif;
     background-color: #ECEEF1;
 }
+button :hover
+{
+    cursor: pointer;
+}
+button{
+    line-height: 25px;
+    text-align: center;
+}
+/*HEADER-SECTION*/
 header{
     font-size: small;
     color: #505050;
@@ -29,9 +39,17 @@ header{
     grid-template-columns: 10fr 1fr;
     justify-items: end;
 }
+@media (max-width: 1000px){
+    .alt-sign{
+        visibility: visible;
+        text-align: center;
+    }
+    header{
+        visibility: hidden;
+    }
+}
 
-
-/*Form Section*/
+/*Form Section-TITLE*/
 #FormSection{
     justify-items: center;
 }
@@ -62,6 +80,8 @@ header{
       opacity:0.1;
     }   
 }
+
+/*FORM-SECTION INPUT*/
 .Form{
     display: flex;
     flex-direction: column;
@@ -99,6 +119,26 @@ label{
 .form-input{
     display: inline-block;
 }
+input[type=text]{
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.alt-sign{
+    visibility: hidden;
+    margin: 0px;
+    text-align: center;
+}
+#call-info{
+    font-size: small;
+    text-align: left;
+    margin: 2px 10px 20px 0px;
+}
+
+/*CREATE ACCOUNT BUTTON*/
 .create{
     margin: 25px 0px 20px 0px;
     height: 50px;
@@ -114,35 +154,7 @@ label{
     margin: 5px -60px 0px 60px;
 }
 
-input[type=text]{
-  width: 100%;
-  height: 35px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.alt-sign{
-    visibility: hidden;
-    margin: 0px;
-    text-align: center;
-}
-#call-info{
-    font-size: small;
-    text-align: left;
-    margin: 2px 10px 20px 0px;
-}
-@media (max-width: 1000px){
-    .alt-sign{
-        visibility: visible;
-        text-align: center;
-    }
-    header{
-        visibility: hidden;
-    }
-}
-
+/*FOOTER SECTION*/
 footer{
     padding-top: 50px;
     margin: auto;
@@ -152,7 +164,6 @@ footer{
     font-size: small;
     padding-bottom: 5px;
 }
-
 span{
     font-size: x-small;
     text-align: center;
@@ -162,22 +173,11 @@ span{
     text-align: center;
     font-style: italic;
 }
-
 footer a, .LinksRelated a{
     color: #4C4C4C;
     text-decoration: none;
 }
-
 footer a:hover
 {
     text-decoration: underline;
-}
-
-button :hover
-{
-    cursor: pointer;
-}
-button{
-    line-height: 25px;
-    text-align: center;
 }
