@@ -1,6 +1,7 @@
 html{
     color: #4C4C4C;
     font-family: sans-serif;
+    background-color: #ECEEF1;
 }
 header{
     font-size: 12px;
@@ -8,7 +9,6 @@ header{
 }
 .login{
     margin-top: 9px;
-    background-color: rgb(0, 119, 197);
     color: white;
     width: 90%;
     height: 60%;
@@ -33,22 +33,25 @@ header{
 /*Form Section*/
 #FormSection{
     justify-items: center;
-    
 }
 #Title{
     max-width: 350px;
     margin: auto;
-    justify-items: center;
+}
+#Title div{
+    text-align: center;
+    margin: auto;
 }
 .LinksRelated{
     max-width: 300px;
+    align-items: center;
     display: flex;
     flex-direction: row;
-
 }
 .LinksRelated img{
     width: 26px;
     height: 26px;
+    padding: 0px 5px 7px 5px;
     animation-name: move-left;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -86,6 +89,7 @@ form{
 .alt-sign{
     visibility: hidden;
     margin: 0px;
+    text-align: center;
 }
 @media (max-width: 1000px){
     .alt-sign{
