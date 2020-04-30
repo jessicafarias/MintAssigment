@@ -162,7 +162,7 @@ span{
     font-style: italic;
 }
 
-footer a{
+footer a, .LinksRelated a{
     color: #4C4C4C;
     text-decoration: none;
 }
