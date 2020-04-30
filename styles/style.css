@@ -7,7 +7,7 @@ header{
     font-size: small;
     color: #505050;
 }
-.login{
+.login, .create{
     margin-top: 9px;
     color: white;
     width: 90%;
@@ -95,6 +95,19 @@ label{
 }
 .form-input{
     display: inline-block;
+}
+.create{
+    margin: 25px 0px 20px 0px;
+    height: 50px;
+    width: 310px;
+}
+.create-text{
+    margin-left: 0px;
+    width: 75%;
+}
+.create-img{
+    float: left;
+    margin: 10px 0px 0px 60px;
 }
 
 .alt-sign{
