@@ -85,3 +85,16 @@ form{
 .form-input{
     display: inline-block;
 }
+
+.alt-sign{
+    visibility: hidden;
+    margin: 0px;
+}
+@media (max-width: 1000px){
+    .alt-sign{
+        visibility: visible;
+    }
+    header{
+        visibility: hidden;
+    }
+}
