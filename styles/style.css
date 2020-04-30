@@ -15,6 +15,7 @@ header{
     border-radius: 8px;
     border-color: #C7C7C7;
     border-width: 1px;
+    background-color: rgb(0, 119, 197);
 }
 .login-txt{
     margin-top: 7px;
@@ -69,6 +70,12 @@ header{
     border-color: #C7C7C7;
     border-width: 1px;
     border-style: solid;
+    background-color: white;
+}
+input{
+    height: 34px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
 }
 form{
     display: flex;
