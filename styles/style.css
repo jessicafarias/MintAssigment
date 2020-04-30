@@ -75,8 +75,12 @@ form{
     flex-direction: column;
     max-width: 500px;
     margin: 0px 20px 20px 20px;
+    font-size: 14px;
 }
-.form-items{
+label{
+    margin: 20px 10px 10px 0px;
+}
+.form-items, #call-info{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -91,9 +95,15 @@ form{
     margin: 0px;
     text-align: center;
 }
+#call-info{
+    font-size: 10px;
+    text-align: left;
+    margin: 2px 10px 30px 0px;
+}
 @media (max-width: 1000px){
     .alt-sign{
         visibility: visible;
+        text-align: center;
     }
     header{
         visibility: hidden;
