@@ -1,4 +1,5 @@
 html{
+    color: #4C4C4C;
     font-family: sans-serif;
 }
 header{
@@ -12,7 +13,7 @@ header{
     width: 90%;
     height: 60%;
     border-radius: 8px;
-    border-color: black;
+    border-color: #C7C7C7;
     border-width: 1px;
 }
 .login-txt{
@@ -35,7 +36,7 @@ header{
     
 }
 #Title{
-    max-width: 300px;
+    max-width: 350px;
     margin: auto;
     justify-items: center;
 }
@@ -59,26 +60,22 @@ header{
 }
 .Form{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     max-width: 350px;
     margin: auto;
+    border-color: #C7C7C7;
     border-width: 1px;
     border-style: solid;
 }
 form{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     max-width: 500px;
     margin: 0px 20px 20px 20px;
-       
 }
 .form-items{
     display: flex;
     flex-direction: column;
-    justify-items: center;
     text-align: center;
     margin: 10px;
 }
