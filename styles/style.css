@@ -32,6 +32,7 @@ header{
 /*Form Section*/
 #FormSection{
     justify-items: center;
+    
 }
 #Title{
     max-width: 300px;
@@ -56,16 +57,30 @@ header{
       opacity:0.1;
     }   
 }
-.form{
+.Form{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0px 20px 20px 20px;
+       
 }
 .form-items{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: 10px;
 }
 .form-input{
     display: inline-block;
