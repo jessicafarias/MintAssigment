@@ -56,3 +56,17 @@ header{
       opacity:0.1;
     }   
 }
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    display: inline-block;
+}
