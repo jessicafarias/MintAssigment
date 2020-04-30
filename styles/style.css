@@ -1,9 +1,10 @@
 .login{
     background-color: rgb(0, 119, 197);
     color: white;
+    min-height: 20px;
 }
 #sign-in{
     display: grid;
-    justify-content: end;
     grid-template-columns: 10fr 1fr;
+    justify-items: end;
 }
