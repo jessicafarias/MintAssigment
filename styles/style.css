@@ -44,3 +44,17 @@ header{
     width: 26px;
     height: 26px;
 }
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    display: inline-block;
+}
