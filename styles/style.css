@@ -86,8 +86,20 @@ label{
     text-align: center;
     margin: 10px;
 }
+#call-info{
+    font-size: xx-small;
+}
 .form-input{
     display: inline-block;
+}
+
+input[type=text]{
+  width: 100%;
+  height: 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .alt-sign{
@@ -117,6 +129,7 @@ footer{
     text-align: center;
     max-width: 700px;
     font-size: small;
+    padding-bottom: 5px;
 }
 
 span{
@@ -129,12 +142,12 @@ span{
     font-style: italic;
 }
 
-a{
+footer a{
     color: #4C4C4C;
     text-decoration: none;
 }
 
-a:hover
+footer a:hover
 {
     text-decoration: underline;
 }
