@@ -133,10 +133,6 @@ label {
   margin: 30px 10px 0 10px;
 }
 
-#call-info {
-  font-size: xx-small;
-}
-
 .form-input {
   display: inline-block;
 }
@@ -157,9 +153,9 @@ input[type=text] {
 }
 
 #call-info {
-  font-size: small;
   text-align: left;
   margin: 2px 10px 20px 0;
+  font-size: xx-small;
 }
 
 /* CREATE ACCOUNT BUTTON */
