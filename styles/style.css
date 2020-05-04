@@ -1,0 +1,209 @@
+/* GENERAL */
+html {
+  color: #4c4c4c;
+  font-family: sans-serif;
+  background-color: #eceef1;
+}
+
+button :hover {
+  cursor: pointer;
+}
+
+button {
+  line-height: 25px;
+  text-align: center;
+}
+
+/* HEADER-SECTION */
+header {
+  font-size: small;
+  color: #505050;
+}
+
+.login,
+.create {
+  margin-top: 9px;
+  color: white;
+  width: 90%;
+  height: 60%;
+  border-radius: 8px;
+  border-color: #c7c7c7;
+  border-width: 1px;
+  background-color: rgb(0, 119, 197);
+}
+
+.login-txt {
+  margin-top: 7px;
+}
+
+.login-img {
+  margin-top: 4px;
+  float: left;
+}
+
+#sign-in {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  justify-items: end;
+}
+
+@media (max-width: 1000px) {
+  .alt-sign {
+    visibility: visible;
+    text-align: center;
+  }
+
+  header {
+    visibility: hidden;
+  }
+}
+
+/* main-TITLE */
+main {
+  justify-items: center;
+}
+
+#Title {
+  max-width: 350px;
+  margin: auto;
+}
+
+#Title div {
+  text-align: center;
+  margin: auto;
+}
+
+.LinksRelated {
+  max-width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.LinksRelated img {
+  width: 26px;
+  height: 26px;
+  padding: 0 5px 7px 5px;
+  animation-name: move-left;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move-left {
+  0% {
+    opacity: 0.1;
+  }
+}
+
+/* FORM-SECTION INPUT */
+.Form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: auto;
+  border-color: #c7c7c7;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+
+input {
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 20px 20px 20px;
+  font-size: 14px;
+}
+
+label {
+  margin: 20px 10px 10px 0;
+}
+
+.form-items,
+#call-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 10px 0 10px;
+}
+
+.form-input {
+  display: inline-block;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 35px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.alt-sign {
+  visibility: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+#call-info {
+  text-align: left;
+  margin: 2px 10px 20px 0;
+  font-size: xx-small;
+}
+
+/* CREATE ACCOUNT BUTTON */
+.create {
+  margin: 25px 0 20px 0;
+  height: 50px;
+  width: 310px;
+  line-height: 30px;
+}
+
+.create-text {
+  margin-left: 0;
+  width: 75%;
+}
+
+.create-img {
+  float: left;
+  margin: 5px -60px 0 60px;
+}
+
+/* FOOTER SECTION */
+footer {
+  padding-top: 50px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  font-size: small;
+  padding-bottom: 5px;
+}
+
+span {
+  font-size: x-small;
+  text-align: center;
+}
+
+#TermsText {
+  font-size: small;
+  text-align: center;
+  font-style: italic;
+}
+
+footer a,
+.LinksRelated a {
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

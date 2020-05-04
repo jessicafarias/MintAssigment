@@ -2,33 +2,43 @@
 
 This project consists a copy of the Mint Sign in page including Forms.
 
-screenshot
+
+![screenshot of webpage](/images/website-screen-shot.png)
 
 
 
-Built With:
+# Built With:
+
 HTML, CSS
 
 
 
-Authors
-👤 Author1
+# Authors
+
+**👤 Author1**
 
 Github: @krash46
+
 Twitter: @FariasRosado
+
 Linkedin: https://www.linkedin.com/in/jessica-michelle-farias-rosado/
 
-👤 Author2
+
+**👤 Author2**
 
 Github: @mikethreels
+
 Twitter: @MichaelThreels
+
 Linkedin: www.linkedin.com/in/michael-threels-24101991
-🤝 Contributing
+
+
+# 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
-Show your support
+# Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+# Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
